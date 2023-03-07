@@ -1,9 +1,35 @@
 .container {
-    display: flex;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    min-width: 100%;
 }
 
-#rain {
+.container__canvas  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+}
 
+.breach {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: var(--lightblue) 2px solid;
+    background: var(--none);
+}
+
+.breach__button {
+    align-self: center;
+    height: 15rem;
+    width: 15rem;
+    border: white 1px solid;
+    background-image: url("./assets/images/ijzzbloc - Copy.png");
+    background-size: cover;
+    background-position: center;
+    aspect-ratio: 16 / 9;
+    overflow: visible;
 }

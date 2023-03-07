@@ -1,11 +1,11 @@
 * {
-  max-height: 100vh;
-  max-width: 100vw;
+  box-sizing: border-box;
   --green: #00ff40;
   --blue: #004bcc96;
   --lightblue: #147affb3;
   --gold: #f2df8d;
-  background-color: #000;
+  --none: #0000;
+  background: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
