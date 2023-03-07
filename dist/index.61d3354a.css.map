@@ -1,0 +1,1 @@
+{"mappings":"AAAA","sources":["src/index.css"],"sourcesContent":[".container {\r\n    display: flex;\r\n    height: 100vh;\r\n    width: 100vw;\r\n}\r\n\r\n#rain {\r\n\r\n}"],"names":[],"version":3,"file":"index.61d3354a.css.map","sourceRoot":"/__parcel_source_root/"}
