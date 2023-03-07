@@ -142,13 +142,13 @@
       this[globalName] = mainExports;
     }
   }
-})({"a9TqU":[function(require,module,exports) {
+})({"3H4B5":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
-module.bundle.HMR_BUNDLE_ID = "b4fb8b07228996f2";
+module.bundle.HMR_BUNDLE_ID = "d692191d9ab20437";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, chrome, browser, globalThis, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -584,36 +584,6 @@ const draw = ()=>{
 };
 /*----------draw speed----------*/ setInterval(draw, 60);
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, "__esModule", {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["3H4B5"], null, "parcelRequire2041")
 
-},{}]},["a9TqU","9wZnK"], "9wZnK", "parcelRequire2041")
-
-//# sourceMappingURL=index.228996f2.js.map
+//# sourceMappingURL=index.9ab20437.js.map

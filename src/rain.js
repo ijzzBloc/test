@@ -21,7 +21,7 @@ for( let x = 0; x < columns; x++ ) {
     rainDrops[x] = 1;
 }
 /*----------function to draw random characters ----------*/
-const draw = () => {
+export const draw = () => {
     context.fillStyle = 'rgba(0, 0, 0, 0.05)';
     context.fillRect(0, 0, rain.width, rain.height);
 
