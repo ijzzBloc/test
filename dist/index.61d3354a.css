@@ -14,7 +14,6 @@
   width: 100%;
   height: 100%;
   background: var(--none);
-  border: 2px solid red;
   justify-content: flex-start;
   display: flex;
   position: absolute;
@@ -32,7 +31,6 @@
 
 .field__menu__item {
   height: 20%;
-  border: 1px solid #ff0;
   display: flex;
 }
 
@@ -68,6 +66,7 @@
   background: none;
   border: none;
   margin-top: 10%;
+  font-size: 1.5rem;
 }
 
 .field__menu__item--button:hover {
@@ -78,6 +77,42 @@ i {
   padding-right: .5rem;
   position: relative;
   top: 4%;
+}
+
+.field__main {
+  width: 100%;
+  border: 1px solid red;
+  place-content: space-between center;
+  align-items: center;
+  display: flex;
+}
+
+.field__main__text {
+  max-width: 30%;
+  height: -moz-fit-content;
+  height: fit-content;
+  color: var(--gold);
+  background-color: var(--blue);
+  border: var(--lightblue) 1px solid;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.field__main__photo {
+  width: 40%;
+  height: 100%;
+  border: 1px solid #ff0;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+  display: flex;
+}
+
+#portrait {
+  border: 1px solid var(--lightblue);
+  height: 70%;
+  width: 55%;
+  background: var(--blue);
 }
 
 /*# sourceMappingURL=index.61d3354a.css.map */
