@@ -1,3 +1,13 @@
-
+* {
+  box-sizing: border-box;
+  --green: #00ff40;
+  --blue: #004bcc96;
+  --lightblue: #147affb3;
+  --gold: #f2df8d;
+  --none: #0000;
+  background: none;
+  margin: 0;
+  padding: 0;
+}
 
 /*# sourceMappingURL=index.c05324f8.css.map */

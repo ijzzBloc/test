@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link rel="stylesheet" href="globals.css">
+  <link rel="stylesheet" href="main.css">
+  <script src="https://kit.fontawesome.com/a01587ee71.js" crossorigin="anonymous"></script>
+  <title>Portfolio</title>
+</head>
+<body>
+<main>
+  <section class="container" id="rainContainer">
+    <canvas class="container__canvas" id="rain"></canvas>
+  </section>
+  <section class="container field">
+    <div class="field__menu">
+      <div class="field__menu__item">
+        <div class="field__menu__item--image">
+          <div id="logo"></div>
+        </div>
+      </div>
+      <div class="field__menu__item__list">
+        <button class="field__menu__item--button" type="button"><i class="fa-solid fa-house"></i>home</button>
+        <button class="field__menu__item--button" type="button"><i class="fa-solid fa-user"></i>about</button>
+        <button class="field__menu__item--button" type="button"><i class="fa-solid fa-list-ul"></i>skills</button>
+        <button class="field__menu__item--button" type="button"><i class="fa-solid fa-suitcase"></i>portfolio</button>
+        <button class="field__menu__item--button" type="button"><i class="fa-solid fa-comments"></i>contact</button>
+      </div>
+    </div>
+    <div class="field__main">
+      <div class="field__main__text">
+        <article class="field__main__text__article">
+          <h2>Hello, my name is Michiel</h2>
+          <h3>I'm a front end developer</h3>
+          <p>I'm a fresh bootcamp graduate</p>
+          <p>Looking for an internship</p>
+          <p>My expertise is to create website design, graphic design and in the future much more...</p>
+        </article>
+      </div>
+      <div class="field__main__photo">
+        <div id="portrait"></div>
+      </div>
+    </div>
+  </section>
+</main>
+<script type="module" src="rain.js"></script>
+</body>
+</html>
