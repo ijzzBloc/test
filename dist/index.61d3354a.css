@@ -1,118 +1,15 @@
-.container {
-  height: 100%;
-  min-width: 100%;
+* {
+  background: #000;
 }
 
-.container__canvas {
-  z-index: -100;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.field {
+.main {
   width: 100%;
-  height: 100%;
-  background: var(--none);
-  justify-content: flex-start;
-  display: flex;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.field__menu {
-  width: 15%;
-  background-color: var(--blue);
-  border: var(--lightblue) 1px solid;
-  flex-direction: column;
-  display: flex;
-}
-
-.field__menu__item {
-  height: 20%;
-  display: flex;
-}
-
-.field__menu__item--image {
-  height: 100%;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
-#logo {
-  height: 80%;
-  width: 60%;
-  background-image: url("ijzzbloc - Copy.65083a00.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 70%;
-}
-
-.field__menu__item__list {
-  height: 100%;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
-.field__menu__item--button {
-  height: 50px;
-  width: 60%;
-  color: var(--gold);
-  background: none;
-  border: none;
-  margin-top: 10%;
-  font-size: 1.5rem;
-}
-
-.field__menu__item--button:hover {
-  cursor: pointer;
-}
-
-i {
-  padding-right: .5rem;
-  position: relative;
-  top: 4%;
-}
-
-.field__main {
-  width: 100%;
+  height: 100vh;
   border: 1px solid red;
-  place-content: space-between center;
-  align-items: center;
-  display: flex;
 }
 
-.field__main__text {
-  max-width: 30%;
-  height: -moz-fit-content;
-  height: fit-content;
-  color: var(--gold);
-  background-color: var(--blue);
-  border: var(--lightblue) 1px solid;
-  padding: 2rem;
-  font-size: 2rem;
-}
-
-.field__main__photo {
-  width: 40%;
-  height: 100%;
-  border: 1px solid #ff0;
-  justify-content: center;
-  align-items: center;
-  margin-left: 10%;
-  display: flex;
-}
-
-#portrait {
-  border: 1px solid var(--lightblue);
-  height: 70%;
-  width: 55%;
-  background: var(--blue);
+.main__field {
+  border: 1px solid #00f;
 }
 
 /*# sourceMappingURL=index.61d3354a.css.map */
