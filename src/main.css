@@ -14,3 +14,45 @@
     border: 1px solid red;
     height: 100vh;
 }
+.slide--container   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    border: yellow 1px solid;
+    position: absolute;
+}
+.slide  {
+    display: flex;
+    border: blue 1px solid;
+    position: absolute;
+    height: 55vh;
+    width: 55vw;
+    border-radius: 9px;
+    overflow: visible;
+}
+.slide__left   {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 40%;
+    border: 1px white solid;
+}
+.slide__description {
+    height: 80%;
+    width: 80%;
+    border: black 1px solid;
+}
+.slide__image   {
+    left: 60%;
+    height: 100%;
+    width: 60%;
+    border: pink 1px solid;
+}
+.slide--1   {
+    background: #00ff40;
+}
